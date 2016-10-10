@@ -3,14 +3,13 @@
 This page is a companion for the 12th IFIP WG 12.5 International Conference and Workshops - Artificial Intelligence Applications and Innovations (AIAI 2016) paper on [Diversifying the Legal Order](http://dx.doi.org/10.1007/978-3-319-44944-9_44), written by Koniaris Marios (me), Ioannis Anagnostopoulos and Yannis Vassiliou. This page hosts the complete dataset, ground-truth data, queries and relevance assessments we utilize in the article. Our goal is to encourage progress on the diversification in legal IR.
 
 ## Dataset
-* [CourtListener](https://www.courtlistener.com/api/bulk-info/)
 
-> Our corpus contains 63,742 precedential legal cases from the [Supreme Court of the United States](http://supremecourt.gov/). The cases were originally downloaded from [CourtListener](https://www.courtlistener.com/). The legal corpus contains all cases from the Supreme Court of the United States, covering more than two centuries of legal history, spanning from 1754 up to 2015. We extracted from the cases text all the necessary information for our feature selection framework e.g. relationships to other documents, date of Judgment.  RESTful API detailed instruction can be found  [here](https://www.courtlistener.com/api/rest-info/).
+Our corpus contains 3.890 Australian legal cases from the [Federal Court of Australia](http://www.fedcourt.gov.au). The cases were originally downloaded from [AustLII](http://www.austlii.edu.au) and were used in 
+> F. Galgani, P. Compton, and A. Hoffmann. Combining different summarization techniques for legal text. In Proceedings of the Workshop on Innovative Hybrid Approaches to the Processing of Textual Data, pages 115–123, Avignon, France, April 2012. Association for Computational Linguistics
 
-* [Supreme Court Database](http://scdb.wustl.edu/data.php?s=6)
+to experiment with automatic summarization and citation analysis. The legal corpus contains all cases from the Federal Court of Australia spanning from 2006 up to 2009. From the cases, we extracted all needed text for our diversification framework.
 
-> Since our corpus was initially unclassified, we acquired topical taxonomies from the Supreme Court Database using commonly shared unique identification variable SCDB Case ID. Topical taxonomies within Supreme Court Database are the outcome of a manual analysis and interpretation of the legal provisions considered in each case. An introduction to the Online Code Book can be found [here](http://scdb.wustl.edu/documentation.php?var=intro), while download and use instructions can be found [here](http://scdb.wustl.edu/data.php?s=3).
-
+Our dataset can de found [here](https://archive.ics.uci.edu/ml/datasets/Legal+Case+Reports)
 
 ## West Law Digest Topics
 

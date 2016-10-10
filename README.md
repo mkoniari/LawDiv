@@ -1,6 +1,6 @@
 # Diversifying the Legal Order
 
-This page is a companion for the 12th IFIP WG 12.5 International Conference and Workshops - Artificial Intelligence Applications and Innovations (AIAI 2016) paper on [Diversifying the Legal Order](http://dx.doi.org/10.1007/978-3-319-44944-9_44), written by Koniaris Marios (me), Ioannis Anagnostopoulos and Yannis Vassiliou. This page hosts the complete dataset, ground-truth data, queries and relevance assessments we utilize in the article. Our goal is to encourage progress on the diversification in legal IR.
+This page is a companion for the 12th International Conference and Workshops - Artificial Intelligence Applications and Innovations (AIAI 2016) paper on [Diversifying the Legal Order](http://dx.doi.org/10.1007/978-3-319-44944-9_44), written by Koniaris Marios (me), Ioannis Anagnostopoulos and Yannis Vassiliou. This page hosts the complete dataset, ground-truth data, queries and relevance assessments we utilize in the article. Our goal is to encourage progress on the diversification in legal IR.
 
 ## Dataset
 

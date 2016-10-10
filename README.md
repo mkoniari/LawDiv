@@ -30,8 +30,8 @@ West Law Digest Topics  is a taxonomy of identifying points of law from reported
 
 ## Query assessments and ground-truth.
 
-For each topic/query we kept the top-n results. An LDA topic model, using an open source implementation ([mallet](http://mallet.cs.umass.edu/)) was trained on the  top-n results for each query. From the resulting topic distributions for each document, with an acceptance threshold of 15%, we consider relevance judgments for each query/ document and subtopic. In other words, we consider the topics created from LDA as aspects of each query, and based
-on the topic/ document distribution we can infer whether a document is relevant for an aspect. In total, we acquired 1,650 subtopics for all the 330 queries. Our ground-truth data can be found:
+For each topic/query we kept the top-n results. An LDA topic model, using an open source implementation ([mallet](http://mallet.cs.umass.edu/)) was trained on the  top-n results for each query. From the resulting topic distributions for each document, with an acceptance threshold of 20%, we consider relevance judgments for each query/ document and subtopic. In other words, we consider the topics created from LDA as aspects of each query, and based
+on the topic/ document distribution we can infer whether a document is relevant for an aspect. Our ground-truth data can be found:
 * [Qrel format](https://github.com/mkoniari/LegalDiv/blob/master/qrels.txt)
 * [Compact format](https://github.com/mkoniari/LegalDiv/blob/master/aspects.txt)
 

@@ -44,17 +44,16 @@ Our stop word list can be found [here](https://github.com/mkoniari/LegalDiv/blob
 If you use queries and relevance assessments utilized in this work in your research, please cite:
 
 
-    @inproceedings{DBLP:conf/ifip12/2016aiai, 
-        editor = {Lazaros S. Iliadis and Ilias Maglogiannis},
-        title = {Artificial Intelligence Applications and Innovations - 12th {IFIP} {WG} 12.5 International Conference and Workshops, {AIAI} 2016, Thessaloniki, Greece, September 16-18, 2016, Proceedings},
-       series= {{IFIP} Advances in Information and Communication Technology},
-       volume = {475},
-       publisher = {Springer},
-       year  = {2016},
-       url       = {http://dx.doi.org/10.1007/978-3-319-44944-9},
-       doi       = {10.1007/978-3-319-44944-9},
-       isbn      = {978-3-319-44943-2},
-       timestamp = {Fri, 02 Sep 2016 09:53:19 +0200},
-       biburl    = {http://dblp.uni-trier.de/rec/bib/conf/ifip12/2016aiai},
-       bibsource = {dblp computer science bibliography, http://dblp.org}
-       }
+    @inproceedings{Koniaris2016,
+    author="Koniaris, Marios and Anagnostopoulos, Ioannis and Vassiliou, Yannis",
+    editor="Iliadis, Lazaros and Maglogiannis, Ilias",
+    title="Diversifying the Legal Order",
+    bookTitle="Artificial Intelligence Applications and Innovations: 12th IFIP WG 12.5 International Conference and Workshops, AIAI 2016, Thessaloniki, Greece, September 16-18, 2016, Proceedings",
+    year="2016",
+    publisher="Springer International Publishing",
+    address="Cham",
+    pages="499--509",
+    isbn="978-3-319-44944-9",
+    doi="10.1007/978-3-319-44944-9_44",
+    url="http://dx.doi.org/10.1007/978-3-319-44944-9_44"
+    }
